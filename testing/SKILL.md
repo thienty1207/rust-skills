@@ -1,7 +1,6 @@
 ---
-name: testing-advance
+name: testing
 description: Comprehensive testing across platforms — Web (Playwright, Vitest), Backend (Rust/Go/Python/Node API testing), Desktop (Tauri, Electron), Mobile (React Native, Flutter - coming soon). Unit, integration, E2E, load, security, accessibility testing. Use for test automation, quality assurance, CI/CD integration.
-version: 4.0.0
 license: MIT
 ---
 

@@ -1,7 +1,6 @@
 ---
-name: payment-integration-advance
+name: payments
 description: Multi-provider payment integration — Stripe (checkout, billing, Connect), Paddle (MoR subscriptions), SePay (VietQR, Vietnamese banks), Polar (global SaaS), Creem.io (MoR + licensing). Checkout flows, webhooks, subscriptions, QR payments, multi-provider management.
-version: 3.0.0
 license: MIT
 ---
 
@@ -108,5 +107,5 @@ export async function POST(req: Request) {
 | [rust-backend-advance](../rust-backend-advance/SKILL.md) | Webhook handling, payment APIs |
 | [databases](../databases/SKILL.md) | Order/payment data storage |
 | [nextjs-turborepo](../nextjs-turborepo/SKILL.md) | Checkout UI, payment forms |
-| [web-testing](../web-testing/SKILL.md) | Payment flow E2E testing |
+| [testing](../testing/SKILL.md) | Payment flow E2E testing |
 | [devops](../devops/SKILL.md) | Webhook security, secrets management |

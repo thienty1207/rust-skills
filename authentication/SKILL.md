@@ -1,7 +1,6 @@
 ---
-name: better-auth-advance
+name: authentication
 description: Authentication & authorization with Better Auth — email/password, OAuth (Google, GitHub, Discord), 2FA/TOTP, passkeys/WebAuthn, magic links, session management, RBAC, organizations/multi-tenant, rate limiting. Framework-agnostic TypeScript. Use for adding auth to any web app.
-version: 3.0.0
 license: MIT
 ---
 
@@ -115,4 +114,4 @@ if (!session) redirect('/login')
 | [nextjs-turborepo](../nextjs-turborepo/SKILL.md) | Next.js integration, API routes |
 | [databases](../databases/SKILL.md) | User data storage, session management |
 | [rust-backend-advance](../rust-backend-advance/SKILL.md) | Rust backend authentication patterns |
-| [web-testing](../web-testing/SKILL.md) | Authentication flow testing |
+| [testing](../testing/SKILL.md) | Authentication flow testing |

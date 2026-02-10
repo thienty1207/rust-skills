@@ -2,8 +2,6 @@
 
 > OpenAPI/Swagger specifications, auto-generated documentation, and API versioning strategies.
 
-## Version
-4.0.0
 
 ## Metadata
 - **Category:** documentation

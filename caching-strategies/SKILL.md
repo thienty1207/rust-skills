@@ -2,14 +2,15 @@
 
 > Redis, in-memory caching, and cache patterns for high-performance applications.
 
-## Version
-4.0.0
-
 ## Metadata
 - **Category:** backend-patterns
 - **Scope:** Backend (Rust 60%, Go 15%, Python 15%, Node.js 10%)
 - **Complexity:** Intermediate
 - **Maturity:** Stable
+
+## Reference Navigation
+
+- [redis-patterns.md](references/redis-patterns.md) - Redis connection pooling, locking, cache stampede prevention
 
 ## Overview
 

@@ -1,7 +1,6 @@
 ---
-name: devops-advance
+name: devops
 description: Production-grade DevOps — Docker (multi-stage builds, Compose, optimization), Kubernetes (kubectl, Helm, security, GitOps), Cloudflare (Workers, R2, D1, Pages), GCP (Cloud Run, GKE, Cloud SQL), CI/CD pipelines, Terraform/IaC, monitoring, multi-region deployment. Use for containerization, orchestration, serverless, infrastructure as code, and deployment automation.
-version: 3.0.0
 license: MIT
 ---
 
@@ -102,5 +101,5 @@ Production:    Cloud Run / GKE (deploy on release tag)
 |-------|-------------|
 | [rust-backend-advance](../rust-backend-advance/SKILL.md) | Containerizing Rust apps, deployment configs |
 | [databases](../databases/SKILL.md) | Database hosting, replication, backups |
-| [web-testing](../web-testing/SKILL.md) | CI/CD test pipeline integration |
+| [testing](../testing/SKILL.md) | CI/CD test pipeline integration |
 | [debugging](../debugging/SKILL.md) | Production incident investigation |

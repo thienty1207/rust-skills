@@ -1,7 +1,6 @@
 ---
-name: frontend-design-advance
+name: frontend-design
 description: Distinctive frontend interface design — bold aesthetic direction, custom design systems, typography mastery, color theory, motion design, spatial composition, anti-generic patterns. Use when designing UIs, creating visual identity, establishing design direction, or elevating interface aesthetics beyond generic templates.
-version: 3.0.0
 license: MIT
 ---
 

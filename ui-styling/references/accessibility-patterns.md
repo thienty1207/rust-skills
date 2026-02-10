@@ -338,6 +338,6 @@ Automated Testing:
 
 ## Related Skills
 
-- [Accessibility Testing](../../web-testing/references/accessibility-testing.md) — Automated testing
+- [Accessibility Testing](../../testing/references/accessibility-testing.md) — Automated testing
 - [shadcn Components](shadcn-components.md) — Pre-built accessible components
 - [Component Styling](../../frontend-design/references/component-styling.md) — Focus styles

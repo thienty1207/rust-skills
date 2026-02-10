@@ -2,8 +2,6 @@
 
 > Production-ready application security patterns across web, API, and data layers.
 
-## Version
-4.0.0
 
 ## Metadata
 - **Category:** security

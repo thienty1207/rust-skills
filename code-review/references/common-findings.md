@@ -249,6 +249,6 @@ useEffect(() => {
 
 ## Related Skills
 
-- [Security Testing](../../web-testing/references/security-testing.md) — Automated security checks
+- [Security Testing](../../testing/references/security-testing.md) — Automated security checks
 - [Debugging Tools](../../debugging/references/debugging-tools.md) — Finding root causes
 - [PostgreSQL Optimization](../../databases/references/postgresql-optimization.md) — Query performance

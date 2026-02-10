@@ -2,8 +2,6 @@
 
 > Full-text search, Elasticsearch, MeiliSearch, and database search patterns.
 
-## Version
-4.0.0
 
 ## Metadata
 - **Category:** backend-patterns

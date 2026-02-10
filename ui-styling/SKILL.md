@@ -1,7 +1,6 @@
 ---
-name: ui-styling-advance
+name: ui-styling
 description: Create beautiful, accessible UIs with shadcn/ui (Radix + Tailwind), Tailwind CSS v4, theming, dark mode, responsive design, canvas design system. Use for building UI components, implementing design systems, styling, responsive layouts, dark mode, and accessibility.
-version: 2.0.0
 license: MIT
 ---
 

@@ -2,8 +2,6 @@
 
 > Cloud storage, local file handling, and multipart uploads across multiple stacks.
 
-## Version
-4.0.0
 
 ## Metadata
 - **Category:** backend-patterns

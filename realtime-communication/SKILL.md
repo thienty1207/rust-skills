@@ -2,8 +2,6 @@
 
 > WebSockets, Server-Sent Events, and pub/sub patterns for real-time applications.
 
-## Version
-4.0.0
 
 ## Metadata
 - **Category:** backend-patterns
@@ -38,12 +36,13 @@ Real-time communication enables instant data delivery between servers and client
 
 ### Core Patterns
 - [websocket-basics.md](references/websocket-basics.md) - WebSocket implementation patterns
-- [server-sent-events.md](references/server-sent-events.md) - SSE for server → client streams
-- [pubsub-patterns.md](references/pubsub-patterns.md) - Redis/NATS pub/sub
+- [sse-patterns.md](references/sse-patterns.md) - SSE for server → client streams
 
-### Advanced Topics
-- [scaling-websockets.md](references/scaling-websockets.md) - Horizontal scaling strategies
-- [presence-tracking.md](references/presence-tracking.md) - Online status and typing indicators
+<!-- Coming soon:
+- pubsub-patterns.md - Redis/NATS pub/sub
+- scaling-websockets.md - Horizontal scaling strategies
+- presence-tracking.md - Online status and typing indicators
+-->
 
 ## Quick Start
 

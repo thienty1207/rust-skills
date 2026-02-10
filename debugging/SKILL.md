@@ -1,7 +1,6 @@
 ---
-name: debugging-advance
+name: debugging
 description: Systematic debugging framework — structured root-cause analysis, hypothesis-driven debugging, evidence collection, defense-in-depth validation, regression prevention. Use when fixing bugs, investigating failures, diagnosing performance issues, or troubleshooting production incidents.
-version: 3.0.0
 license: MIT
 ---
 
@@ -135,6 +134,6 @@ After fixing a bug, verify at ALL levels:
 | Skill | When to Use |
 |-------|-------------|
 | [code-review](../code-review/SKILL.md) | Finding bugs before they ship, review checklists |
-| [web-testing](../web-testing/SKILL.md) | Writing regression tests after fixes |
+| [testing](../testing/SKILL.md) | Writing regression tests after fixes |
 | [devops](../devops/SKILL.md) | Monitoring, logging, production debugging |
 | [databases](../databases/SKILL.md) | Query performance analysis with EXPLAIN |

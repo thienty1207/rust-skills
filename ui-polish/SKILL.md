@@ -1,7 +1,6 @@
 ---
-name: aesthetic-advance
+name: ui-polish
 description: Design aesthetics workflow — 4-stage refinement (Beautiful → Right → Satisfying → Peak), inspiration capture, design image analysis with AI, iterative visual improvement, balancing beauty with functionality. Use when evaluating design quality, refining visual aesthetics, creating design systems, or iterating on UI polish.
-version: 3.0.0
 license: MIT
 ---
 

@@ -1,7 +1,6 @@
 ---
-name: databases-advance
+name: databases
 description: Advanced database engineering — PostgreSQL (schema design, advanced queries, optimization, replication, administration), MongoDB (document modeling, aggregation pipelines, sharding, Atlas), Redis (caching, pub/sub, streams). Use for schema design, query optimization, database administration, backup/restore, replication, and performance tuning.
-version: 2.0.0
 license: MIT
 ---
 
@@ -132,4 +131,4 @@ ZREVRANGE leaderboard 0 9 WITHSCORES
 | [payments](../payments/SKILL.md) | Orders, transactions, subscriptions storage |
 | [devops](../devops/SKILL.md) | Database hosting, backups, Docker containers |
 | [debugging](../debugging/SKILL.md) | Query performance issues, connection problems |
-| [web-testing](../web-testing/SKILL.md) | Database integration tests |
+| [testing](../testing/SKILL.md) | Database integration tests |

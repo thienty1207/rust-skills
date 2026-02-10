@@ -2,8 +2,6 @@
 
 > Tracing, metrics, logging, and alerting across multiple stacks.
 
-## Version
-4.0.0
 
 ## Metadata
 - **Category:** operations

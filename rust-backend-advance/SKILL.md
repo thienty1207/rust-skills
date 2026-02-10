@@ -2,7 +2,6 @@
 name: rust-backend-advance
 description: Production-ready Rust backend development with Axum framework and PostgreSQL. Master async patterns, tower middleware, SQLx database operations, authentication (JWT/OAuth), testing strategies, and deployment. Use when building REST APIs, microservices, or any Rust web backend with Axum.
 license: MIT
-version: 1.0.0
 ---
 
 # Rust + Axum Backend Mastery

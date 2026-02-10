@@ -2,8 +2,6 @@
 
 > Localization, multi-language support, and locale handling across multiple stacks.
 
-## Version
-4.0.0
 
 ## Metadata
 - **Category:** fullstack-patterns

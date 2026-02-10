@@ -1,7 +1,6 @@
 ---
-name: web-frameworks-advance
+name: nextjs-turborepo
 description: Full-stack web frameworks — Next.js 15 (App Router, Server Components, RSC, PPR, SSR/SSG/ISR), Turborepo (monorepo, task pipelines, remote caching). Use for building React applications, server-side rendering, monorepo management, build optimization, and full-stack TypeScript projects.
-version: 2.0.0
 license: MIT
 ---
 
@@ -119,5 +118,5 @@ my-monorepo/
 | [ui-styling](../ui-styling/SKILL.md) | Tailwind CSS, shadcn/ui components |
 | [frontend-design](../frontend-design/SKILL.md) | Design tokens, typography, color systems |
 | [authentication](../authentication/SKILL.md) | Next.js authentication setup |
-| [web-testing](../web-testing/SKILL.md) | E2E testing with Playwright |
+| [testing](../testing/SKILL.md) | E2E testing with Playwright |
 | [devops](../devops/SKILL.md) | Deployment, Vercel, Docker |

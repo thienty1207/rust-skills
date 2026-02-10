@@ -1,7 +1,6 @@
 ---
-name: code-review-advance
+name: code-review
 description: Rigorous code review methodology — technical review protocols, evidence-based claims, verification gates, security review, performance review, architecture review. Use when reviewing code, requesting reviews, or establishing review processes.
-version: 3.0.0
 license: MIT
 ---
 
@@ -149,6 +148,6 @@ API:
 | Skill | When to Use |
 |-------|-------------|
 | [debugging](../debugging/SKILL.md) | Investigating bugs found in review |
-| [web-testing](../web-testing/SKILL.md) | Verifying test coverage for PRs |
+| [testing](../testing/SKILL.md) | Verifying test coverage for PRs |
 | [rust-backend-advance](../rust-backend-advance/SKILL.md) | Rust-specific code review patterns |
 | [ui-polish](../ui-polish/SKILL.md) | UI/Design review criteria |

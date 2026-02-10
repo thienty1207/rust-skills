@@ -1,44 +1,94 @@
-# 🛠️ Rust Skills Collection
+# 🛠️ Multi-Stack Skills Collection
 
-A comprehensive, modular skill library for full-stack development with **Rust backend**, **Next.js frontend**, and modern DevOps practices.
+A comprehensive, modular skill library for full-stack development with **multi-stack backend** (Rust 60%, Go 15%, Python 15%, Node.js 10%), **Next.js frontend**, and modern DevOps practices.
 
 ## 📦 Skills Overview
 
-| Category | Skill | Description |
-|----------|-------|-------------|
-| **Backend** | [rust-backend-advance](rust-backend-advance/SKILL.md) | Axum, SQLx, async Rust, error handling, authentication |
-| **Frontend** | [nextjs-turborepo](nextjs-turborepo/SKILL.md) | Next.js App Router, Server Components, Turborepo |
-| | [ui-styling](ui-styling/SKILL.md) | Tailwind CSS v4, shadcn/ui, theming, dark mode |
-| | [frontend-design](frontend-design/SKILL.md) | Design tokens, typography, anti-generic UI |
-| **Data** | [databases](databases/SKILL.md) | PostgreSQL, MongoDB, Redis patterns |
-| **Auth** | [authentication](authentication/SKILL.md) | Better Auth, OAuth, 2FA, sessions |
-| **Payments** | [payments](payments/SKILL.md) | Stripe, Paddle, SePay, multi-provider |
-| **Quality** | [web-testing](web-testing/SKILL.md) | Playwright, Vitest, load/security testing |
-| | [code-review](code-review/SKILL.md) | Review protocols, feedback patterns |
-| | [debugging](debugging/SKILL.md) | Systematic debugging, root cause analysis |
-| **Design** | [ui-polish](ui-polish/SKILL.md) | Visual refinement, design analysis |
-| **Infra** | [devops](devops/SKILL.md) | Docker, Kubernetes, Cloudflare, GCP, CI/CD |
+### Core Backend (Multi-Stack)
+
+| Skill | Description |
+|-------|-------------|
+| [rust-backend-advance](rust-backend-advance/SKILL.md) | Axum, SQLx, async Rust, error handling |
+| [databases](databases/SKILL.md) | PostgreSQL, MongoDB, Redis (any backend) |
+| [authentication](authentication/SKILL.md) | Better Auth, OAuth, 2FA, sessions |
+| [security](security/SKILL.md) | OWASP, encryption, rate limiting |
+| [api-documentation](api-documentation/SKILL.md) | OpenAPI, Swagger, SDK generation |
+
+### Backend Patterns (Multi-Stack)
+
+| Skill | Description |
+|-------|-------------|
+| [background-jobs](background-jobs/SKILL.md) | Job queues, scheduled tasks |
+| [caching-strategies](caching-strategies/SKILL.md) | Redis, in-memory, cache patterns |
+| [realtime-communication](realtime-communication/SKILL.md) | WebSockets, SSE |
+| [email-notifications](email-notifications/SKILL.md) | SMTP, templates, queuing |
+| [file-storage](file-storage/SKILL.md) | S3, multipart uploads |
+| [search-engine](search-engine/SKILL.md) | MeiliSearch, Elasticsearch |
+| [monitoring-observability](monitoring-observability/SKILL.md) | Tracing, metrics, logging |
+
+### Frontend (Next.js)
+
+| Skill | Description |
+|-------|-------------|
+| [nextjs-turborepo](nextjs-turborepo/SKILL.md) | Next.js App Router, Server Components, Turborepo |
+| [ui-styling](ui-styling/SKILL.md) | Tailwind CSS v4, shadcn/ui, theming |
+| [frontend-design](frontend-design/SKILL.md) | Design tokens, typography, anti-generic UI |
+| [internationalization](internationalization/SKILL.md) | i18n, locale handling |
+
+### Payments & Business
+
+| Skill | Description |
+|-------|-------------|
+| [payments](payments/SKILL.md) | Stripe, Paddle, SePay, multi-provider |
+
+### Quality & Testing
+
+| Skill | Description |
+|-------|-------------|
+| [testing](testing/SKILL.md) | Unit, integration, E2E, load testing |
+| [code-review](code-review/SKILL.md) | Review protocols, feedback patterns |
+| [debugging](debugging/SKILL.md) | Systematic debugging, root cause analysis |
+
+### Design & Polish
+
+| Skill | Description |
+|-------|-------------|
+| [ui-polish](ui-polish/SKILL.md) | Visual refinement, design analysis |
+
+### Infrastructure
+
+| Skill | Description |
+|-------|-------------|
+| [devops](devops/SKILL.md) | Docker, Kubernetes, Cloudflare, GCP, CI/CD |
 
 ## 🚀 Quick Start
 
 ### For a New Full-Stack Project
 
 1. **Backend Setup**: Start with [rust-backend-advance](rust-backend-advance/SKILL.md)
-2. **Frontend Setup**: Use [nextjs-turborepo](nextjs-turborepo/SKILL.md) for Next.js
-3. **Styling**: Follow [ui-styling](ui-styling/SKILL.md) for Tailwind + shadcn
-4. **Data Layer**: Refer to [databases](databases/SKILL.md) for PostgreSQL
+2. **Database**: Refer to [databases](databases/SKILL.md) for PostgreSQL/Redis
+3. **Frontend Setup**: Use [nextjs-turborepo](nextjs-turborepo/SKILL.md) for Next.js
+4. **Styling**: Follow [ui-styling](ui-styling/SKILL.md) for Tailwind + shadcn
 5. **Auth**: Implement with [authentication](authentication/SKILL.md)
-6. **Deploy**: Use [devops](devops/SKILL.md) for containerization & deployment
+6. **Security**: Apply [security](security/SKILL.md) best practices
+7. **Deploy**: Use [devops](devops/SKILL.md) for containerization & deployment
 
 ### For Specific Tasks
 
 | Task | Skills to Use |
 |------|---------------|
-| Build REST API | `rust-backend-advance` → `databases` |
+| Build REST API | `rust-backend-advance` → `api-documentation` → `databases` |
+| Add WebSockets | `realtime-communication` → `rust-backend-advance` |
+| Add job queue | `background-jobs` → `caching-strategies` (Redis) |
+| Add file uploads | `file-storage` → `security` (presigned URLs) |
+| Add search | `search-engine` → `databases` |
+| Add caching | `caching-strategies` → `databases` (Redis) |
+| Add email | `email-notifications` → `background-jobs` |
+| Add i18n | `internationalization` → `nextjs-turborepo` |
 | Build Next.js components | `nextjs-turborepo` → `ui-styling` |
-| Add authentication | `authentication` → `databases` |
-| Set up CI/CD | `devops` → `web-testing` |
-| Fix production bug | `debugging` → `code-review` |
+| Add authentication | `authentication` → `security` → `databases` |
+| Set up CI/CD | `devops` → `testing` |
+| Fix production bug | `debugging` → `monitoring-observability` |
 | Design new feature UI | `ui-polish` → `frontend-design` → `ui-styling` |
 | Add payment processing | `payments` → `rust-backend-advance` |
 
@@ -59,53 +109,49 @@ skill-name/
 ## 🔗 Skill Dependencies
 
 ```
-                    ┌─────────────────┐
-                    │  rust-backend   │
-                    │    advance      │
-                    └────────┬────────┘
-                             │
-              ┌──────────────┼──────────────┐
-              │              │              │
-              ▼              ▼              ▼
-        ┌──────────┐  ┌─────────────┐  ┌──────────┐
-        │ databases │  │authentication│  │ payments │
-        │           │  │             │  │          │
-        └──────────┘  └─────────────┘  └──────────┘
-              ▲              ▲
-              │              │
-    ┌─────────┴─────────────┴─────────┐
-    │                                 │
-    │      nextjs-turborepo           │
-    │   (Next.js App Router + Turbo)  │
-    │                                 │
-    └─────────────────┬───────────────┘
-                      │
-         ┌────────────┴────────────┐
-         │                         │
-         ▼                         ▼
-   ┌──────────┐             ┌──────────┐
-   │    ui    │             │ frontend │
-   │ styling  │             │  design  │
-   └──────────┘             └──────────┘
-         │                         │
-         │            ┌────────────┘
-         │            │
-         │            ▼
-         │      ┌──────────┐
-         └─────►│ ui-polish│
-                └──────────┘
+                         Backend Layer
+┌─────────────────────────────────────────────────────────────┐
+│                    rust-backend-advance                      │
+│              (Rust 60% | Go 15% | Python 15% | Node 10%)     │
+└─────────────────────────────┬───────────────────────────────┘
+                              │
+    ┌────────────┬────────────┼────────────┬────────────┐
+    │            │            │            │            │
+    ▼            ▼            ▼            ▼            ▼
+┌────────┐ ┌─────────┐ ┌──────────┐ ┌────────┐ ┌───────────┐
+│security│ │databases│ │  auth    │ │payments│ │api-docs   │
+└────────┘ └────┬────┘ └──────────┘ └────────┘ └───────────┘
+                │
+    ┌───────────┼───────────┬───────────┬───────────┐
+    │           │           │           │           │
+    ▼           ▼           ▼           ▼           ▼
+┌────────┐ ┌────────┐ ┌─────────┐ ┌────────┐ ┌──────────┐
+│caching │ │ jobs   │ │realtime │ │search  │ │monitoring│
+└────────┘ └────────┘ └─────────┘ └────────┘ └──────────┘
 
-Supporting Skills (cross-cutting):
-┌──────────┐  ┌──────────┐  ┌──────────┐
-│  devops  │  │   web    │  │   code   │
-│          │  │ testing  │  │  review  │
-└──────────┘  └──────────┘  └──────────┘
-      │             │             │
-      └─────────────┴─────────────┘
-                    │
-              ┌──────────┐
-              │ debugging │
-              └──────────┘
+                        Frontend Layer
+┌─────────────────────────────────────────────────────────────┐
+│               nextjs-turborepo (Next.js 100%)                │
+└─────────────────────────────┬───────────────────────────────┘
+                              │
+         ┌────────────────────┼────────────────────┐
+         │                    │                    │
+         ▼                    ▼                    ▼
+   ┌──────────┐        ┌──────────┐         ┌────────┐
+   │ui-styling│        │  i18n    │         │frontend│
+   └────┬─────┘        └──────────┘         │ design │
+        │                                   └───┬────┘
+        └─────────────────┬─────────────────────┘
+                          ▼
+                    ┌──────────┐
+                    │ ui-polish│
+                    └──────────┘
+
+                    Cross-Cutting Skills
+┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐
+│  devops  │  │ testing  │  │   code   │  │debugging │
+│          │  │          │  │  review  │  │          │
+└──────────┘  └──────────┘  └──────────┘  └──────────┘
 ```
 
 ## 🎯 Design Principles
@@ -130,13 +176,23 @@ Each skill recommends specific tools/patterns but explains alternatives.
 | Skill | Maturity | Notes |
 |-------|----------|-------|
 | `rust-backend-advance` | ⭐⭐⭐⭐⭐ | Production-ready, comprehensive |
-| `databases` | ⭐⭐⭐⭐ | Good coverage, needs examples |
+| `databases` | ⭐⭐⭐⭐ | Good coverage, multi-stack |
 | `devops` | ⭐⭐⭐⭐ | Good coverage, needs examples |
 | `nextjs-turborepo` | ⭐⭐⭐⭐ | Solid Next.js coverage |
 | `ui-styling` | ⭐⭐⭐⭐ | Complete reference docs |
-| `web-testing` | ⭐⭐⭐⭐ | Comprehensive testing guide |
+| `testing` | ⭐⭐⭐⭐ | Backend + frontend coverage |
 | `authentication` | ⭐⭐⭐⭐ | Complete auth reference |
-| `frontend-design` | ⭐⭐⭐ | Good patterns, needs more examples |
+| `security` | ⭐⭐⭐⭐ | NEW - OWASP, multi-stack |
+| `api-documentation` | ⭐⭐⭐⭐ | NEW - OpenAPI, SDK gen |
+| `caching-strategies` | ⭐⭐⭐⭐ | NEW - Redis patterns |
+| `background-jobs` | ⭐⭐⭐⭐ | NEW - Queue patterns |
+| `realtime-communication` | ⭐⭐⭐ | NEW - WebSocket, SSE |
+| `file-storage` | ⭐⭐⭐ | NEW - S3, multipart |
+| `search-engine` | ⭐⭐⭐ | NEW - MeiliSearch, ES |
+| `email-notifications` | ⭐⭐⭐ | NEW - SMTP, templates |
+| `monitoring-observability` | ⭐⭐⭐ | NEW - OTel, Prometheus |
+| `internationalization` | ⭐⭐⭐ | NEW - i18n patterns |
+| `frontend-design` | ⭐⭐⭐ | Good patterns |
 | `ui-polish` | ⭐⭐⭐ | Workflow documented |
 | `debugging` | ⭐⭐⭐ | Methodology solid |
 | `code-review` | ⭐⭐⭐ | Protocols documented |
@@ -164,5 +220,6 @@ MIT License - Feel free to use, modify, and distribute these skills.
 
 ---
 
-**Last updated**: February 2026
-**Version**: 2.0.0
+**Last updated**: February 2025
+**Version**: 4.0.0
+**Skills**: 22 total (12 original + 10 new)

@@ -34,12 +34,30 @@ A comprehensive, modular skill library for full-stack development with **multi-s
 | [ui-styling](ui-styling/SKILL.md) | Tailwind CSS v4, shadcn/ui, theming |
 | [frontend-design](frontend-design/SKILL.md) | Design tokens, typography, anti-generic UI |
 | [internationalization](internationalization/SKILL.md) | i18n, locale handling |
+| [ui-ux-pro-max](ui-ux-pro-max/SKILL.md) | Design intelligence: 50 styles, 97 palettes, 57 font pairings, 9 stacks |
+| [ui-ux-pro-max-skill](ui-ux-pro-max-skill/SKILL.md) | Premium design toolkit: glassmorphism, micro-interactions, Magic UI |
+
+### Mobile (Dioxus)
+
+| Skill | Description |
+|-------|-------------|
+| [mobile-dioxus](mobile-dioxus/SKILL.md) | iOS/Android apps with Dioxus, Rust mobile development |
 
 ### Payments & Business
 
 | Skill | Description |
 |-------|-------------|
 | [payments](payments/SKILL.md) | Stripe, Paddle, SePay, multi-provider |
+
+### Architecture & Process
+
+| Skill | Description |
+|-------|-------------|
+| [backend-architect](backend-architect/SKILL.md) | System design, microservices, API architecture (multi-stack) |
+| [architecture-decision-records](architecture-decision-records/SKILL.md) | ADR templates, decision documentation |
+| [plan-writing](plan-writing/SKILL.md) | Task planning, breakdown, verification criteria |
+| [production-readiness](production-readiness/SKILL.md) | Pre-launch checklists, health checks, rollback |
+| [security-hardening](security-hardening/SKILL.md) | Deep security: OWASP, supply chain, hardening (multi-stack) |
 
 ### Quality & Testing
 
@@ -54,6 +72,7 @@ A comprehensive, modular skill library for full-stack development with **multi-s
 | Skill | Description |
 |-------|-------------|
 | [ui-polish](ui-polish/SKILL.md) | Visual refinement, design analysis |
+| [ui-ux-designer](ui-ux-designer/SKILL.md) | Design systems, user research, accessibility-first design |
 
 ### Infrastructure
 
@@ -78,19 +97,22 @@ A comprehensive, modular skill library for full-stack development with **multi-s
 | Task | Skills to Use |
 |------|---------------|
 | Build REST API | `rust-backend-advance` → `api-documentation` → `databases` |
+| Build mobile app | `mobile-dioxus` → `rust-backend-advance` (API) → `databases` |
 | Add WebSockets | `realtime-communication` → `rust-backend-advance` |
 | Add job queue | `background-jobs` → `caching-strategies` (Redis) |
 | Add file uploads | `file-storage` → `security` (presigned URLs) |
 | Add search | `search-engine` → `databases` |
 | Add caching | `caching-strategies` → `databases` (Redis) |
 | Add email | `email-notifications` → `background-jobs` |
-| Add i18n | `internationalization` → `nextjs-turborepo` |
+| Add i18n | `internationalization` → `nextjs-turborepo` or `mobile-dioxus` |
 | Build Next.js components | `nextjs-turborepo` → `ui-styling` |
 | Add authentication | `authentication` → `security` → `databases` |
 | Set up CI/CD | `devops` → `testing` |
 | Fix production bug | `debugging` → `monitoring-observability` |
-| Design new feature UI | `ui-polish` → `frontend-design` → `ui-styling` |
+| Design new feature UI | `ui-ux-designer` → `ui-ux-pro-max` → `ui-polish` → `frontend-design` |
+| Build premium UI | `ui-ux-pro-max-skill` → `ui-styling` → `frontend-design` |
 | Add payment processing | `payments` → `rust-backend-advance` |
+| Deploy mobile to stores | `mobile-dioxus` → `devops` (CI/CD) |
 
 ## 📁 Skills Structure
 
@@ -194,6 +216,9 @@ Each skill recommends specific tools/patterns but explains alternatives.
 | `internationalization` | ⭐⭐⭐ | NEW - i18n patterns |
 | `frontend-design` | ⭐⭐⭐ | Good patterns |
 | `ui-polish` | ⭐⭐⭐ | Workflow documented |
+| `ui-ux-pro-max` | ⭐⭐⭐⭐ | NEW - Comprehensive design intelligence |
+| `ui-ux-pro-max-skill` | ⭐⭐⭐⭐ | NEW - Premium design patterns |
+| `ui-ux-designer` | ⭐⭐⭐⭐ | NEW - Design systems mastery |
 | `debugging` | ⭐⭐⭐ | Methodology solid |
 | `code-review` | ⭐⭐⭐ | Protocols documented |
 | `payments` | ⭐⭐⭐ | Multi-provider coverage |
@@ -220,6 +245,6 @@ MIT License - Feel free to use, modify, and distribute these skills.
 
 ---
 
-**Last updated**: February 2025
-**Version**: 4.0.0
-**Skills**: 22 total (12 original + 10 new)
+**Last updated**: February 2026
+**Version**: 6.1.0
+**Skills**: 31 total (12 original + 10 new + mobile-dioxus + 5 architecture/process + 3 UI/UX)
